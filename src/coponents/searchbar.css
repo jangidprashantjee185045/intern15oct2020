@@ -1,0 +1,25 @@
+.search-bar{
+    height:60px;
+    width: 100%;
+}
+
+.search-bar-in{
+    display: inline-block;
+    width: 50%;
+    height: 50px;
+    margin:5px auto;
+    border-radius: 8px;
+    padding:0px 5px;
+    border: 2px solid lightgrey;
+}
+.search-bar-in input{
+    width: 90%;
+    height:40px;
+    border-style:none;
+    font-size:medium;
+    padding: 3px 3px;
+}
+
+.search-bar-in i{
+    color: lightslategray;
+}
