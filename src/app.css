@@ -1,0 +1,88 @@
+.App {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.top-heading{
+  display: inline-block;
+   width: 100%;
+   height: 200px;
+   margin: 10px auto;
+   margin-top: 50px;
+}
+.head1{
+  font-size:5.5em;
+  color:#37ACAC;
+  margin:2px auto;
+  font-family:'Times New Roman', Times, serif;
+}
+
+.head2{
+  font-size:2.5em;
+  font-weight: 500;
+  color: lightslategray;
+  margin:2px auto;
+}
+
+.doctor_clinic_hospita{
+  max-width:25%;
+  margin: 10px auto;
+  font-size: 1.2em;
+}
+
+.doctor_clinic_hospital ul{
+  display: inline-block;
+  color: lightslategray;
+  font-weight: 500;
+}
+
+.modern-healthcare{
+  color: #EFA860;
+}
+
+.how_it_works{
+  display:inline;
+  margin: 10px auto;
+  max-width:25%; 
+  font-size:1.5em;
+  color:lightslategray;
+}
+.how_it_works mark{
+  background-color:white;
+   color: rgb(20, 209, 200);
+   margin: 0px 3px;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
